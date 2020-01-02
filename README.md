@@ -4,7 +4,7 @@ Peep-o-repo is a simple machine whose job is to find you the project you have be
 
 ## Getting Started
 
-This is just another project on github. Want to do something similar and hack around it? Follow these steps to get it set up and run it on your own local machine.
+This is an undeployed site. Follow these steps to get your own setup and run it locally.
 
 ### Prerequisites
 
@@ -33,9 +33,10 @@ On your terminal
 
 ## Built With
 
+* [GraphQL](https://graphql.org/) - Query language for fetching Github v4 API
+* [Apollo](https://www.apollographql.com/) - GraphQL integration
 * [React](https://reactjs.org/) - The frontend framework used
-* [GraphQL](https://www.apollographql.com/) - Data Fetching from Github v4 API
-* [Semantic-UI](https://react.semantic-ui.com) - UI Component Library
+* [Semantic-UI](https://react.semantic-ui.com) - UI components library
 
 ## About Author
 
