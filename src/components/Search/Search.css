@@ -1,0 +1,129 @@
+.search {
+    margin:auto;
+    max-width:720px;
+}
+
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+}
+  
+.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search input.loading {
+    background: url(http://www.xiconeditor.com/image/icons/loading.gif) no-repeat right center;
+}
+
+.suggestions {
+    border: 1px solid #999;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    margin:auto;
+    max-width:720px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: calc(80% + 1rem);
+}
+  
+.suggestions li {
+    padding: 0.5rem;
+}
+
+.suggestion-active {
+  background-color: #182955;
+  color: #E9C24B ;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.modal-main {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    transition: 0.3s;
+    position:fixed;
+    background: white;
+    width: 35%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.modal.buttons {
+    position: relative;
+    border-radius: 0 0 1em 1em;
+}
+
+button.add {
+    float: center;
+    width: 50%;
+    padding: 10px;
+    background: #182955;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 0 0 0 1em;
+    border-left: none;
+    cursor: pointer;
+}
+
+button.close {
+    float: center;
+    width: 50%;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 0 0 1em 0;
+    border-left: none;
+    cursor: pointer;
+}
+  
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
+}  
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    width: 50%;
+    border-radius: 5px 5px 0 0;
+}
+  
+.container {
+    padding: 16px 16px;
+}
+  

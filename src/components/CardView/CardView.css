@@ -1,0 +1,21 @@
+.ui.container {
+    margin: 4em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.ui.card {
+    max-width: 14em;
+    margin: 1em;
+    display: inline-block;
+}
+
+.ui.button.visit {
+    color: white;
+    background-color: #182955;
+}
+
+.ui.button.delete {
+    color: white;
+    background-color: #C52531;
+}
